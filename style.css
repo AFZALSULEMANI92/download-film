@@ -1,0 +1,120 @@
+*{ 
+  box-sizing:border-box;
+}
+body{
+  background-color:#E1C479;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px; 
+  padding: 0px;
+}
+
+#wrapper{
+ border:4px groove #DEC2DC;
+  margin:0px auto;
+}
+#header h1{
+  text-align: center;
+  background-color: #F14F4F;
+ margin: 0px 0px;
+  color: white;
+  }
+ #menu ul{
+   margin: 0px 0px;
+   background-color: #4ACBE1;
+  }
+#menu li{
+  display: inline-block;
+ 
+}
+#menu a{
+  text-decoration: none;
+  padding: 4px;
+ }
+ #content{
+   background-color:#43F8C3;
+   margin: 0px 0px 0px 0px;
+   overflow: scroll;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #F20000;
+   margin-bottom:0px;
+   
+ }
+ #content h2{
+   text-align:center;
+   font-size: bold;
+   margin-top: 2px;
+    
+ }
+ #content p{
+   padding: 0px 3px;
+ 
+ }
+ #stylebox{
+   background: url("lok.jpg");
+   background-size:cover;
+   margin-bottom:0px;
+   }
+ #stylebox ul{
+   margin-top:0px;
+   text-decoration:none;
+    
+   }
+   #stylebox li{
+     display:block;
+     padding: 7px;
+     
+   }
+   #stylebox a{
+     text-decoration:none;
+     color:#D81440;
+     font-size: 125%;
+     border: 2px groove #1459D8;
+     background-color: #A7C1F3;
+  
+     }
+     #footer{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       background-color:#FF2336;
+       clear: both;
+       margin-top: 0px;
+       
+     }
+     #footer h3{
+       margin-top:0px;
+       text-align: right;
+    }
+     a:hover,a:active{
+       background:  #F14F4F;
+     }
+  @media (min-width: 992px)
+ {
+  #content{
+    width: 50%;
+    float:left;
+    height: 50%;
+  }
+  #stylebox{
+    width:50%;
+    float:right;
+    height:80%;
+  }
+   
+}
+
+/* Tablet view */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #content{
+    width: 50%;
+    float:left;
+   }
+  #stylebox{
+    width:50%;
+    float:right;
+    height:80%;
+  }
+  
+  }
+
+            
+  
